@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v8msg:Message xmlns:v8msg="http://v8.1c.ru/messages">
+  <v8msg:Header xmlns:v8msg="http://v8.1c.ru/messages">
+    <v8msg:ExchangePlan>аб_ВыгрузкаНаСайтТоваров</v8msg:ExchangePlan>
+    <v8msg:To>GC</v8msg:To>
+    <v8msg:From>Centr</v8msg:From>
+    <v8msg:MessageNo>1453</v8msg:MessageNo>
+    <v8msg:ReceivedNo>0</v8msg:ReceivedNo>
+  </v8msg:Header>
+  <v8msg:Body>
+    <status>1</status>
+  </v8msg:Body>
+</v8msg:Message>

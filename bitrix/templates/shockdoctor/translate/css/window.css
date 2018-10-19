@@ -1,0 +1,552 @@
+/** window wrapper*/
+.window-wrapper .layer {
+	z-index: 1000;
+	background-color:black;
+	width:100%;
+	height: 100%;
+	opacity:0.6;
+	position: absolute;
+}
+.window-wrapper .column-separator {
+	width:100%;
+}
+
+.window-wrapper .column-separator td {
+	width:50%;
+	opacity:0.6;
+}
+/** loading indicator */
+.popup-wait {
+	position: absolute;
+	background:black;
+	opacity: 0.8;
+	text-align: center;
+	width:100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
+.popup-wait .frame {
+	width: 24px;
+	height: 24px;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin:-12px 0 0 -12px;
+	overflow: hidden;
+}
+.popup-wait .frame .img {
+	background: transparent url('window/wait.png') no-repeat;
+	position:absolute;
+	width: 24px;
+	height: 288px;
+}
+
+/** end of window wrapper */
+
+.overlay_dialog {
+	background-color: #666666;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.overlay___invisible__ {
+	background-color: #666666;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+.dialog_title {
+	float:left;
+	height:14px;
+	font-family: "Klavika Basic" !important;
+	font-size:12px;
+	text-align:center;
+	width:100%;
+	color:#000;
+}
+.dialog_title span{
+	font-family: "Klavika Basic Medium" !important;
+}
+
+.dialog_content {
+	overflow:auto;
+	color: #DDD;
+	font-family: "Klavika Basic Medium" !important;
+	font-size: 10px;
+	background-color:#123;
+}
+
+.top_draggable, .bottom_draggable {
+	cursor:move;
+}
+
+.status_bar {
+	font-size:12px;
+}
+.status_bar {
+	font-size:16px;
+}
+
+.wired_frame {
+	display: block;
+	position: absolute;
+	border: 1px #000 dashed;
+}
+
+/* DO NOT CHANGE THESE VALUES*/
+.dialog {
+	display: block;
+	position: absolute;
+	background-color: #fff;
+	/** font-family: "Klavika Basic Medium" !important;*/
+}
+.dialog {
+	height: auto !important;
+}
+
+.dialog table.table_window  {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.dialog table.table_window td , .dialog table.table_window th {
+	padding: 0;
+}
+
+.dialog .title_window {
+	-moz-user-select:none;
+}
+
+
+
+.overlay_window {
+	background-color: #85BBEF;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.window_nw {
+	background: #fff;
+	border-left: 1px solid #BDBEC2;
+	border-top: 1px solid #BDBEC2;
+
+	width:10px;
+	height:40px;
+}
+
+.window_n {
+	background: #fff;
+	border-top: 1px solid #BDBEC2;
+	background-position: 0 0;
+	height:40px;
+}
+
+.window_ne {
+	background: #fff;
+	border-right: 1px solid #BDBEC2;
+	border-top: 1px solid #BDBEC2;
+	width:10px;
+	height:40px;
+}
+
+.window_w {
+	background: #fff;
+	border-left: 1px solid #BDBEC2;
+	width:7px;
+}
+
+.window_e {
+	background: #fff;
+	border-right: 1px solid #BDBEC2;
+	width:7px;
+}
+
+.window_sw {
+	background: #fff;
+	border-left: 1px solid #BDBEC2;
+	border-bottom: 1px solid #BDBEC2;
+	width:7px;
+	height:7px;
+}
+
+.window_s {
+	background: #fff;
+	border-bottom: 1px solid #BDBEC2;
+	height:7px;
+}
+
+.window_se, .window_sizer  {
+	background: #fff;
+	border-right: 1px solid #BDBEC2;
+	border-bottom: 1px solid #BDBEC2;
+	width:7px;
+	height:7px;
+}
+
+.window_sizer {
+	cursor:se-resize;
+}
+
+.window_close {
+	width: 28px;
+	height: 27px;
+	background: transparent url(window/button-close-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:27px;
+	right:27px;
+	cursor:pointer;
+	z-index:1000;
+}
+.window_close:hover {
+	background-position: 1px 1px;
+}
+.window_minimize {
+	display: none;
+
+	width: 23px;
+	height: 23px;
+	background: transparent url(window/button-min-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:0px;
+	right:55px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.window_maximize {
+	display: none;
+
+	width: 23px;
+	height: 23px;
+	background: transparent url(window/button-max-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:0px;
+	right:33px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.window_title {
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-top: 36px;
+	float:left;
+	height:38px;
+	font-size:24px;
+	text-align:left;
+	margin: 0;
+	width:100%;
+	color: rgba(50, 49, 49, 0.89);
+}
+
+.window_content {
+	overflow:auto;
+	color: #000;
+	font-family: "Klavika Basic Medium" !important;
+	font: 12px arial;
+	background:#FDFDFD;
+	height:auto;
+	position:relative;
+}
+	.window_content .page-title {
+		display: none;
+	}
+	.window_content #login-form, 
+	.window_content #form-validate {
+		padding: 0;
+	}
+
+/* my styles */
+.window-wrapper .form-container {
+	margin: 0 25px 0 25px;
+}
+
+.window-wrapper em {
+	color: #f7752a;
+	font-size: 15px;
+	margin-right: 5px;
+	margin-top: -15px;
+}
+.window-wrapper i {
+	font-style: italic !important;
+}
+.window-wrapper b {
+	font-weight: bold !important;
+	font-family: "Klavika Basic" !important;
+}
+.window-wrapper label {
+	font-family: "Klavika Basic Medium" !important;
+	font-size: 12px;
+	color:#4F4F4F;
+	text-transform: uppercase;
+}
+.window-wrapper i.gray {
+	color:#4F4F4F;
+}
+.window-wrapper .input-box {
+	margin: 2px 0 16px 0;
+}
+
+/* only for registration */
+.window-wrapper .form-container table.register-form-table {
+	width: 537px;
+	border-top: #E2E4E6 solid 6px;
+
+}
+.window-wrapper .form-container table.register-form-table td {
+	width:267px;
+	padding-top:19px;
+}
+.window-wrapper .form-container table.register-form-table td.right {
+	padding-left:29px;
+}
+.window-wrapper .form-container table.register-form-table td.column-separator {
+	background: transparent url(window/register-vertical-bar.png) no-repeat 0 4px;
+	width:3px;
+}
+.register-form-table .members-receive {
+	margin-top: 19px;
+}
+
+.window-wrapper .two-cols {
+	width: 240px;
+	margin-top: -23px;
+}
+
+.window-wrapper .sports {
+	width:240px;;
+	margin-top: -15px;
+}
+.window-wrapper i {
+	font-family: "Klavika Basic";
+}
+
+.register-submit-bar {
+	margin-top: 30px;
+	margin-bottom: 16px;
+	width:100%;
+}
+
+.dialog table.register-submit-bar td {
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+.dialog table.register-submit-bar .note {
+	width: 350px;
+	color: #4F4F4F;
+	vertical-align: middle;
+}
+
+.register-submit-bar button.cta {
+	font-size: 2em;
+	padding-bottom: 1px;
+	padding-top: 4px;
+}
+
+.register-submit-bar button.cancel {
+	font-size: 1.1em;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+
+
+.window-wrapper .errors {
+	color: #D24305;
+}
+.window-wrapper .errors td {
+	padding: 10px 5px !important;
+}
+.window-wrapper .errors .success-msg {
+	color: #27A1D2;
+}
+
+.window-wrapper input[type="text"], .window-wrapper input[type="password"]  {
+	width: 210px;
+}
+.window-wrapper .register-form-table .customer-dob input {
+	width: 50px;
+	margin-right: 10px;
+	border-right: 1px solid #bbb;
+}
+
+/** registration ok window */
+
+.window-wrapper .registration-ok-container {
+	text-align: center;
+}
+.window-wrapper .registration-ok-container h1.congr {
+	font-family: "Klavika Basic Medium";
+	font-size: 26pt;
+	margin-top: 8px;
+	color: #4F4F4F;
+}
+.window-wrapper .registration-ok-container .userName {
+	margin-top: 4px;
+	font-size: 23px;
+	font-family: "Klavika Basic";
+	color: #29aadc;
+}
+
+.window-wrapper .registration-ok-container .msg {
+	color: #29aadc;
+	margin-top: 17px;
+	font-size: 17px;
+	font-family: "Klavika Basic";
+}
+.window-wrapper .registration-ok-container .msg p {
+	padding: 0;
+	margin-top: 8px;
+}
+.window-wrapper .registration-ok-container .created {
+	font-family: "Klavika Basic";
+	font-size: 22px;
+	margin-top: 29px;
+	color: #4F4F4F;
+}
+
+.window-wrapper .registration-ok-container .receive-header {
+	font-family: "Klavika Basic Medium";
+	color: #4F4F4F;
+	margin-top: 4px;
+	font-size: 17px;
+}
+
+.window-wrapper .registration-ok-container .thanks {
+	margin-top: 40px;
+	background: transparent url(window/inputs.png) no-repeat -244px 0;
+	width: 96px;
+	height: 86px;
+	margin-left: 205px;
+}
+
+/** members receive **/
+.members-receive {
+	font-family: "Klavika Basic" !important;
+	font-size: 13pt;
+	text-transform: uppercase;
+	color: #27A1D2;
+	margin-bottom: 11px;
+}
+.members-pluses {
+	font-family: "Klavika Basic" !important;
+	font-size: 12pt;
+	color: #4F4F4F;
+}
+.members-pluses li {
+	list-style-image: url('window/li.gif');
+	margin-bottom: 4px;
+	margin-left: 15px;
+}
+
+/** only for login */
+.window-wrapper .form-container table.login-form-table {
+	width: 537px;
+	border-top: #E2E4E6 solid 6px;
+}
+.window-wrapper .form-container table.login-form-table td {
+	width:267px;
+	padding-top:14px;
+}
+.window-wrapper .form-container table.login-form-table td.right {
+	padding-left:29px;
+}
+.window-wrapper .form-container table.login-form-table td.column-separator {
+	background: transparent url(window/login-window-vertical-line.jpeg) no-repeat 0 0;
+	width:1px;
+}
+.window-wrapper table.login-form-table .btn {
+	margin: 20px 0 15px 0;
+	text-transform: uppercase;
+	color: #4F4F4F;
+	border: 1px solid #BCBEC0;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	display: block;
+	text-align: center;
+	width: 148px;
+	font-size: 10pt;
+	height: 36px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.window-wrapper table.login-form-table .btn:hover {
+	background: #1C1C1C;
+	border: 1px solid #1C1C1C;
+	color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.window-wrapper table.login-form-table .btn span {
+	padding-top:11px;
+	display: block;
+}
+.window-wrapper table.login-form-table .forgot {
+	color: #f7752a;
+	text-transform: uppercase;
+	margin: -3px 0 -5px 0;
+	display: block;
+}
+.window-wrapper table.login-form-table .input-box {
+	margin: 2px 0 10px 0;
+}
+.window-wrapper table.login-form-table .wnd-submit {
+	background-color: #DA6115;
+	border: 1px solid #DA6115;
+	font-size: 18pt;
+	font-family: "Klavika Basic" !important;
+	color: #fff;
+}
+.window-wrapper table.login-form-table .btn.wnd-submit span{
+	padding-top: 1px !important;
+}
+.window-wrapper table.login-form-table .field-bottom-text {
+	font-size: 10pt;
+	color: #4F4F4F;
+}
+.window-wrapper table.login-form-table .btn.wnd-submit input{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-transform: inherit;
+}
+
+/** only for login */
+.window-wrapper .form-container table.login-form-table.forgot td.column-separator {
+	width:3px;
+}
+.window-wrapper table.login-form-table.forgot .members-pluses li {
+	font-size:13pt;
+	margin-bottom: 9px;
+}
+.window-wrapper table.login-form-table.forgot .wnd-submit {
+	/*margin-top: 89px;*/
+}
+
+/** only for login checkout */
+.window-wrapper .login-checkout-header {
+	text-transform: uppercase;
+	margin-top: -10px;
+}
+.window-wrapper .login-checkout-header .blue {
+	color: #29aadc;
+	font-size: 14pt;
+	font-family: "Klavika Basic" !important;
+}
+.window-wrapper .post-title {
+	margin: 2px 0 15px 0;
+	display: block;
+}
+.window-wrapper .member-signin-caption {
+	font-family: "Klavika Basic" !important;
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #4F4F4F;
+	margin-bottom:15px;
+}

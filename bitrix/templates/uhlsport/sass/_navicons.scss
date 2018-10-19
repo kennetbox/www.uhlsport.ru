@@ -1,0 +1,36 @@
+.udropdown, .ubutton {
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	text-decoration: none;
+	padding: 5px;
+	padding-bottom: 6px;
+	line-height: 25px;
+	font-family: $font1;
+	background-position: right 8px;
+	background-repeat: no-repeat;
+	padding-right: 30px
+}
+.playbutton {
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	text-decoration: none;
+	line-height: 25px;
+	height: 28px;
+	display: block;
+	width: 25px;
+	padding: 4px;
+		&:hover {
+			background-color: #e2001a;
+			color: #fff
+		}
+}
+
+.udropdown {
+	background-image: url(images/pulldown-pfeil_20x15.jpg);
+}
+.udropdown2 {
+	background-image: url(images/pullup-pfeil_20x15.png);
+}
+.ubutton {
+	background-image: url(images/pullup-pfeil_20x15.png);
+}

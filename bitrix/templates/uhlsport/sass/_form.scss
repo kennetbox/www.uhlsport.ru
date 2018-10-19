@@ -1,0 +1,119 @@
+#content {
+	input[type=text],
+	input[type=password],input[type=email],
+	select,	textarea,.input {
+		@include pie;
+		border: 1px solid #dfdfdf;
+		padding: 5px;
+		font-size: 12px;
+		width: 100%;
+		margin-bottom: 10px;
+		color: #a9a9a9;
+		background:#fff;
+		font-family:$font2;
+		color:$color_text;
+		@include transition(all, .25s, ease);	
+		width:100%;
+		@include box-sizing(border-box);
+		&:focus {
+			outline: 0;
+			background:#fff;
+			color:#000;
+			@include box-shadow(inset 1px 2px 3px #dedede);
+		}
+	}
+
+input[type=submit],input[type=button],button,.btns a,.calback a {
+@include pie;
+border: 1px solid #dfdfdf;
+background:#e2001a;
+cursor:pointer;
+text-decoration:none;
+margin:0;
+padding:0;
+color:#fff;
+display: inline-block;
+text-align:center;
+font-size:14px;
+font-family:$font2;
+line-height:35px;
+height:35px;
+padding:0 20px;
+text-decoration:none;
+@include transition(all, .25s, ease);
+	&:focus,&:hover {
+	@include box-shadow(inset 1px 2px 5px #b10c1f);
+	color:#fff;
+	}
+	&:focus {
+	@include box-shadow(inset 1px 2px 10px #b10c1f);
+	color:#fff;
+	}
+}
+	.formular {
+		.post {
+			background-image: url(images/brief.jpg);
+			background-repeat: no-repeat;
+			background-position-x: 60px;
+			background-position-y: -100px;
+			padding-right: 100px;
+			height: 495px
+		}
+		.email {
+			background-image: url(images/at.jpg);
+			background-repeat: no-repeat;
+			background-position-x: 200px;
+			padding-right: 100px;
+			height: 365px
+		}
+		.grid_4 {
+			#landID {
+				margin-top: 0;
+				width: 220px
+			}
+		}
+		input[type=checkbox] {
+			width: auto;
+			border: none
+		}
+		select {
+			padding: 4px;
+			height: 28px;
+			margin-top: 2px
+		}
+		.validation-summary-errors {
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				margin-top: 20px;
+				margin-bottom: 20px
+			}
+		}
+		.error {
+			color: #e2001a
+		}
+		.field-validation-error {
+			color: #e2001a
+		}
+		.input-validation-error {
+			border: 1px solid #e2001a;
+			color: #e2001a
+		}
+		input[type=submit] {
+			width: 200px;
+			padding:0;
+		}
+	}
+	.info {
+		clear: both;
+			label {
+				width: 168px;
+				display: block;
+				float: left
+			}
+	}
+	
+}
+
+

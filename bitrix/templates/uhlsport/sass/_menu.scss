@@ -1,0 +1,51 @@
+.filter_top {
+	background-image: url(images/auswahlsheet_oben.png);
+	width: 275px;
+	height: 107px
+}
+.filter_bottom {
+	background-image: url(images/auswahlsheet_unten.png);
+	width: 275px;
+	height: 107px
+}
+.filter {
+	width: 275px;
+	background-image: url(images/auswahlsheet_wiederholung.png);
+		div {
+			padding-left: 25px;
+			margin-top: -50px
+		}
+		fieldset {
+			border: 0;
+				legend {
+					font-weight: bold
+				}
+				input[type="checkbox"] {
+					margin:2px 2px 2px 5px;
+				}
+				label {
+					&.jquery-checkbox-checked  {
+						border: 1px solid black;
+						display: block;
+						float: left;
+						height: 10px;
+						margin-top: 3px;
+						width: 10px;
+					}
+				}
+		}
+		hr {
+			margin: 0; 						
+		}
+}
+
+#ffilter {
+	margin-top: 20px
+}
+#content {
+	.filter {
+		hr {
+			margin: -20px 20px 20px 10px; 
+		}
+	}
+}

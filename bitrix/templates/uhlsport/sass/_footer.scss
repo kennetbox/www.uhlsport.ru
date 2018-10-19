@@ -1,0 +1,43 @@
+#footer {
+	min-height: 270px;
+	color: #444;
+	padding-top: 38px;
+	background: #ebebeb;
+	background-image: url(images/footer.jpg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	clear: both;
+		.socialmedia {
+			img {
+				margin-bottom: 5px
+			}
+		}
+		h4 {
+			padding: 0;
+			margin: 0;
+			margin-bottom: 5px
+		}
+		 ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0
+		}
+		 a {
+			text-decoration: none;
+			color: #444;
+				&:hover {
+					text-decoration: underline;
+				}
+		}
+		.headline {
+			clear: both;
+			z-index: 5;
+			background-image: url(images/teiler.jpg);
+			background-repeat: no-repeat;
+			height: 20px;
+			margin: 0;
+			margin-top: -40px;
+			margin-bottom: 20px
+		}
+}
+

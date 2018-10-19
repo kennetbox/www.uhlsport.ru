@@ -1,0 +1,287 @@
+/** form wrapper*/
+.customer-account-resetpassword .col-main .column-separator {
+	width:100%;
+}
+
+.customer-account-resetpassword .col-main .column-separator td {
+	width:50%;
+	opacity:0.6;
+}
+
+/* my styles */
+.customer-account-resetpassword .col-main {
+	padding: 0 50px 50px;
+	box-sizing: border-box;
+}
+
+.customer-account-resetpassword .col-main em {
+	color: #f7752a;
+	font-size: 15px;
+	margin-right: 5px;
+	margin-top: -15px;
+}
+.customer-account-resetpassword .col-main i {
+	font-style: italic !important;
+}
+.customer-account-resetpassword .col-main b {
+	font-weight: bold !important;
+	font-family: "Klavika Basic" !important;
+}
+.customer-account-resetpassword .col-main label {
+	font-family: "Klavika Basic Medium" !important;
+	font-size: 12px;
+	color:#4F4F4F;
+	text-transform: uppercase;
+}
+.customer-account-resetpassword .col-main i.gray {
+	color:#4F4F4F;
+}
+.customer-account-resetpassword .col-main .input-box {
+	margin: 2px 0 16px 0;
+}
+
+/* only for registration */
+.customer-account-resetpassword .col-main table.register-form-table {
+	width: 537px;
+	border-top: #E2E4E6 solid 6px;
+
+}
+.customer-account-resetpassword .col-main table.register-form-table td {
+	width:267px;
+	padding-top:19px;
+}
+.customer-account-resetpassword .col-main table.register-form-table td.right {
+	padding-left:29px;
+}
+.customer-account-resetpassword .col-main table.register-form-table td.column-separator {
+	background: transparent url(window/register-vertical-bar.png) no-repeat 0 4px;
+	width:3px;
+}
+
+.customer-account-resetpassword .col-main .two-cols {
+	width: 240px;
+	margin-top: -23px;
+}
+
+.customer-account-resetpassword .col-main .sports {
+	width:240px;;
+	margin-top: -15px;
+}
+.customer-account-resetpassword .col-main i {
+	font-family: "Klavika Basic";
+}
+
+.register-submit-bar {
+	margin-top: 30px;
+	margin-bottom: 16px;
+	width:100%;
+}
+
+.dialog table.register-submit-bar td {
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+.dialog table.register-submit-bar .note {
+	width: 350px;
+	color: #4F4F4F;
+	vertical-align: middle;
+}
+
+.register-submit-bar button.cta {
+	font-size: 2em;
+	padding-bottom: 1px;
+	padding-top: 4px;
+}
+
+.register-submit-bar button.cancel {
+	font-size: 1.1em;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+
+
+.customer-account-resetpassword .col-main .errors {
+	color: #D24305;
+}
+.customer-account-resetpassword .col-main .errors td {
+	padding: 10px 5px !important;
+}
+.customer-account-resetpassword .col-main .errors .success-msg {
+	color: #27A1D2;
+}
+
+.customer-account-resetpassword .col-main input[type="text"], input[type="password"] {
+	width: 242px;
+}
+.customer-account-resetpassword .col-main .customer-dob input {
+	width: 71px;
+	margin-right: 10px;
+	border-right: 1px solid #bbb;
+}
+
+/** registration ok window */
+
+.customer-account-resetpassword .col-main .registration-ok-container {
+	text-align: center;
+}
+.customer-account-resetpassword .col-main .registration-ok-container h1.congr {
+	font-family: "Klavika Basic Medium";
+	font-size: 26pt;
+	margin-top: 8px;
+	color: #4F4F4F;
+}
+.customer-account-resetpassword .col-main .registration-ok-container .userName {
+	margin-top: 4px;
+	font-size: 23px;
+	font-family: "Klavika Basic";
+	color: #29aadc;
+}
+
+.customer-account-resetpassword .col-main .registration-ok-container .msg {
+	color: #29aadc;
+	margin-top: 17px;
+	font-size: 17px;
+	font-family: "Klavika Basic";
+}
+.customer-account-resetpassword .col-main .registration-ok-container .msg p {
+	padding: 0;
+	margin-top: 8px;
+}
+.customer-account-resetpassword .col-main .registration-ok-container .created {
+	font-family: "Klavika Basic";
+	font-size: 22px;
+	margin-top: 29px;
+	color: #4F4F4F;
+}
+
+.customer-account-resetpassword .col-main .registration-ok-container .receive-header {
+	font-family: "Klavika Basic Medium";
+	color: #4F4F4F;
+	margin-top: 4px;
+	font-size: 17px;
+}
+
+.customer-account-resetpassword .col-main .registration-ok-container .thanks {
+	margin-top: 40px;
+	background: transparent url(window/inputs.png) no-repeat -244px 0;
+	width: 96px;
+	height: 86px;
+	margin-left: 205px;
+}
+
+/** only for login */
+.customer-account-resetpassword .col-main table.login-form-table {
+	width: 537px;
+	border-top: #E2E4E6 solid 6px;
+	margin: 0px auto;
+}
+.customer-account-resetpassword .col-main table.login-form-table td {
+	width:267px;
+	padding-top:14px;
+}
+.customer-account-resetpassword .col-main table.login-form-table td.right {
+	padding-left:29px;
+}
+.customer-account-resetpassword .col-main table.login-form-table td.column-separator {
+	background: transparent url(window/login-window-vertical-line.jpeg) no-repeat 0 0;
+	width:1px;
+}
+.customer-account-resetpassword .col-main table.login-form-table .members-receive {
+	font-family: "Klavika Basic" !important;
+	font-size: 13pt;
+	text-transform: uppercase;
+	color: #27A1D2;
+	margin-bottom: 11px;
+}
+.customer-account-resetpassword .col-main table.login-form-table .members-pluses {
+	font-family: "Klavika Basic" !important;
+	font-size: 12pt;
+	color: #4F4F4F;
+}
+.customer-account-resetpassword .col-main table.login-form-table .members-pluses li {
+	list-style-image: url('window/li.gif');
+	margin-bottom: 4px;
+	margin-left: 15px;
+}
+.customer-account-resetpassword .col-main table.login-form-table .btn {
+	margin: 20px 0 15px 0;
+	text-transform: uppercase;
+	color: #4F4F4F;
+	border: 1px solid #BCBEC0;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	display: block;
+	text-align: center;
+	width: 148px;
+	font-size: 10pt;
+	height: 36px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.customer-account-resetpassword .col-main table.login-form-table .btn:hover {
+	background: #1C1C1C;
+	border: 1px solid #1C1C1C;
+	color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.customer-account-resetpassword .col-main table.login-form-table .btn span {
+	padding-top:11px;
+	display: block;
+}
+.customer-account-resetpassword .col-main table.login-form-table .forgot {
+	color: #f7752a;
+	text-transform: uppercase;
+	margin: -3px 0 -5px 0;
+	display: block;
+}
+.customer-account-resetpassword .col-main table.login-form-table .input-box {
+	margin: 2px 0 10px 0;
+}
+.customer-account-resetpassword .col-main table.login-form-table .wnd-submit {
+	background-color: #DA6115;
+	border: 1px solid #DA6115;
+	font-size: 18pt;
+	font-family: "Klavika Basic" !important;
+	color: #fff;
+}
+.customer-account-resetpassword .col-main table.login-form-table .btn.wnd-submit span{
+	padding-top:5px !important;
+}
+.customer-account-resetpassword .col-main table.login-form-table .field-bottom-text {
+	font-size: 10pt;
+	color: #4F4F4F;
+}
+
+/** only for login */
+.customer-account-resetpassword .col-main table.login-form-table.forgot td.column-separator {
+	width:3px;
+}
+.customer-account-resetpassword .col-main table.login-form-table.forgot .members-pluses li {
+	font-size:13pt;
+	margin-bottom: 9px;
+}
+.customer-account-resetpassword .col-main table.login-form-table.forgot .wnd-submit {
+	margin-top: 89px;
+}
+
+/** only for login checkout */
+.customer-account-resetpassword .col-main .login-checkout-header {
+	text-transform: uppercase;
+	margin-top: -10px;
+}
+.customer-account-resetpassword .col-main .login-checkout-header .blue {
+	color: #29aadc;
+	font-size: 14pt;
+	font-family: "Klavika Basic" !important;
+}
+.customer-account-resetpassword .col-main .post-title {
+	margin: 2px 0 15px 0;
+	display: block;
+}
+.customer-account-resetpassword .col-main .member-signin-caption {
+	font-family: "Klavika Basic" !important;
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #4F4F4F;
+	margin-bottom:15px;
+}

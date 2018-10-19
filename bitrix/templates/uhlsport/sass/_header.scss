@@ -1,0 +1,205 @@
+header {
+	position: relative;
+		#fixed {
+			background-color: #fff;
+			top: 0;
+			position: fixed;
+			z-index: 100;
+				#top {
+					background-image: url(images/bg-header.png);
+					background-repeat: no-repeat;
+					height: 20px;
+					width: 1020px;
+				}
+				#logo {
+					background:#fff url(images/logo-simple.png) no-repeat center 30px;
+					height: 165px;
+					width: 110px;
+					@include box-shadow(1px 1px 2px #404040);
+					position: absolute;
+					right: 32px;
+					top: 0;
+					z-index: 100;
+					text-decoration:none;
+					
+						h2 {
+							padding-left: 20px;
+							margin-top: -5px;
+							font-size: 14px
+						}
+				}
+		}
+		#search {
+			position: absolute;
+			border: 1px solid #dfdfdf;
+			width: 173px;
+			right: 175px;
+			height: 27px;
+			top: 27px;
+				input[type=text] {
+					border: 0;
+					width: 140px;
+					height: 22px;
+					line-height: 22px;
+					padding-left: 3px;
+					float: left;
+						&:focus,&:active {
+							border: 0;
+						}
+				}
+				button {
+					float: left;
+					margin-top: 1px;
+					padding: 0;
+					width: 25px;
+					height: 25px;
+					border: 0 solid red;
+					background-color: #fff;
+				}
+		}
+		#line {
+			background-image: url(images/bg-top-line.png);
+			height: 14px;
+			width: 1020px;
+			background-repeat: repeat-x;
+			z-index: 0;
+			position: absolute;
+			top: 60px;
+		}
+		#mobilehome {
+			display: none;
+		}
+		#menu {
+			font-family: $font2;
+			z-index: 10;
+			font-size: 14px;
+			height: 40px;
+			display: block;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			padding-left: 40px;
+			background-color: #fff;
+			background-image: url(images/bg-top-item.png);
+			background-repeat: repeat-x;
+				li {
+					z-index: 1;
+					padding: 0;
+					float: left;
+					position: relative;
+						a {
+							font-size: 14px;
+							line-height: 40px;
+							padding-left: 10px;
+							padding-right: 10px;
+							display: block;
+							color: #000;
+							text-decoration: none;
+							z-index: 50;
+								&.selected {
+									border-bottom: 5px solid #a70013
+								}
+						}
+						ul {
+							z-index: 100;
+							min-width: 160px;
+							background-color: #fff;
+							visibility: hidden;
+							list-style-type: none;
+							padding: 0;
+							margin: 0;
+							@include box-shadow(3px 3px 15px gray);
+							position: absolute;
+							top: 40px;
+							left: 15px;
+								li {
+									display: block;
+									float: none;										
+								}
+						}
+						&#home {
+							a {
+								div {
+									display: block;
+									width: 27px;
+									height: 40px;
+									background: url(images/home.png) no-repeat 0 7px;
+								}
+							}
+							&:hover {
+								a {
+									div {
+										background: url(images/home.png) no-repeat 0 -34px;
+									}
+								}
+							}
+						}
+						&:hover {
+							a {
+								background-color: #e2001a;
+								color: #fff;
+								background-image: url(images/bg-top-item-selected.png);
+								background-repeat: repeat-x;
+								border-bottom: 5px solid #a70013;
+							}
+							ul {
+								visibility: visible;
+								z-index: 100;
+									li {
+										a {
+											font-size: 14px;
+											line-height: 35px;
+											padding-left: 10px;
+											padding-right: 10px;
+											display: block;
+											color: #232323;
+											text-decoration: none;
+											background-image: none;
+											border:none;
+											background:#fff;
+											text-wrap: none;
+												&.selected {
+													border: 0
+												}
+										}
+										&:hover {
+											a {
+												background-image: none;
+												background-color: #e2001a;
+												border: 0;
+												color: #fff;
+											}
+										}
+									}
+							}
+						}
+				}
+		}
+}
+#headerimage {
+	width: 1020px;
+	margin-left: -30px;
+	margin-top: -60px;
+	margin-bottom: -11px;
+	position: relative;
+		img {
+			&#himage1, &#himage2 {
+				z-index: 3;
+				position: absolute;
+				height: 221px
+			}
+			&#himage {
+				margin-bottom: -4px
+			}
+		}
+		div {
+			z-index: 0;
+				#selection {
+					left: 40px;
+					bottom: 60px;
+					z-index: 50;
+					position: absolute
+				}
+		}
+}
+ 

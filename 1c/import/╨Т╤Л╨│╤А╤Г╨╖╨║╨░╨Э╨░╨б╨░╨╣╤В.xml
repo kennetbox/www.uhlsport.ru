@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<v8msg:Message xmlns:v8msg="http://v8.1c.ru/messages">
+	<v8msg:Header>
+		<v8msg:ExchangePlan>аб_ВыгрузкаНаСайтТоваров</v8msg:ExchangePlan>
+		<v8msg:To>GC</v8msg:To>
+		<v8msg:From>Centr</v8msg:From>
+		<v8msg:MessageNo>1454</v8msg:MessageNo>
+		<v8msg:ReceivedNo>0</v8msg:ReceivedNo>
+	</v8msg:Header>
+	<v8msg:Body>
+		<shop date="2018-10-17T10:01:32">
+			<name>СпортДепо</name>
+			<FullUpload>0</FullUpload>
+			<categories_catalog>
+				<category id="з000715">ФУТБОЛ</category>
+				<category id="п002098" parentid="з000715">ФОРМА ИГРОКА</category>
+				<category id="ол0000587" parentid="п002098">ГЕТРЫ</category>
+				<category id="ол0000588" parentid="п002098">МАЙКИ</category>
+				<category id="з002532" parentid="з000715">ФОРМА ВРАТАРЯ</category>
+				<category id="з009920" parentid="з002532">АКСЕССУАРЫ</category>
+				<category id="з009922" parentid="з002532">ПЕРЧАТКИ ВРАТАРСКИЕ</category>
+				<category id="з002413" parentid="з000715">ОДЕЖДА</category>
+				<category id="дп0000470" parentid="з002413">НОСКИ</category>
+				<category id="з002184" parentid="з000715">БУТСЫ</category>
+				<category id="з002358" parentid="з000715">ИГРОВАЯ ОБУВЬ Д/ЗАЛА</category>
+				<category id="з002395" parentid="з000715">МЯЧИ</category>
+				<category id="з000716">МЕДИЦИНА И ПИТАНИЕ</category>
+				<category id="c000996" parentid="з000716">СПОРТИВНОЕ ПИТАНИЕ</category>
+				<category id="дп0004567">БЕГ</category>
+				<category id="дп0012902" parentid="дп0004567">ОДЕЖДА</category>
+				<category id="з006379" parentid="дп0012902">ШОРТЫ</category>
+				<category id="з002378" parentid="дп0004567">КРОССОВКИ</category>
+				<category id="рр0000018">ЕДИНОБОРСТВА</category>
+				<category id="рр0000019" parentid="рр0000018">АКСЕССУАРЫ</category>
+				<category id="о00000060" parentid="рр0000019">КАПЫ/ФУТЛЯРЫ</category>
+			</categories_catalog>
+			<categories_price>
+				<category id="00004">Розничные</category>
+				<category id="00012">уценка</category>
+				<category id="з00000001">Специальные</category>
+				<category id="дп0000019">РРЦ</category>
+				<category id="MaximumPrice">Максимальная цена</category>
+			</categories_price>
+			<categories_properties>
+				<category id="дп0000089">Защита пальцев</category>
+				<category id="дп0000090">Погодные условия</category>
+				<category id="00159">Профессионализм</category>
+				<category id="дп0000003">Модель</category>
+				<category id="дп0000004">Возраст</category>
+				<category id="дп0000012">Объем</category>
+				<category id="дп0000084">Новинка</category>
+				<category id="00134">Бренд</category>
+				<category id="дп0000081">СпецЦена</category>
+				<category id="00156">Год выпуска</category>
+				<category id="дп0000083">ПРОЕКТ</category>
+				<category id="дп0000044">Tested by</category>
+				<category id="дп0000045">Коллекция</category>
+				<category id="дп0000047">Сезон</category>
+				<category id="дп0000039">Название номенклатуры</category>
+				<category id="cat_дп0000006">Новинка</category>
+			</categories_properties>
+			<detail_list_properties>
+				<category id="дп0000040">Размер Мяч</category>
+				<category id="00126">Размер носки</category>
+				<category id="дп0000023">Размер одежды</category>
+				<category id="дп0000029">Размер обуви</category>
+				<category id="дп0000046">Размер перчаток</category>
+			</detail_list_properties>
+			<categories_shop>
+				<category id="дп0000080">Склад Пушкино - Голцентр</category>
+				<category id="дп0000071">ГолЦентр Москва - Магазин</category>
+				<category id="дп0000073">ГолЦентр Питер - Магазин</category>
+			</categories_shop>
+			<offers>
+				<offer id="дпГМ0004893">
+					<name>НОСКИ NIKE MATCHFIT CREW-TEAM SX6835-463</name>
+					<uid>cf71cc53-c9eb-11e7-872a-001517fd1875</uid>
+					<categoryId>дп0000470</categoryId>
+					<article>SX6835-463</article>
+					<priceId id="дп0000019">790</priceId>
+					<priceId id="00004">790</priceId>
+					<priceId id="MaximumPrice">790</priceId>
+					<properties>
+						<prop id="N000000304">НОСКИ</prop>
+						<prop id="дп0000003">MATCHFIT CREW-TEAM</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">18</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000047">SU</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>0888407890383</barcode>
+							<uid>cf71cc5c-c9eb-11e7-872a-001517fd1875</uid>
+							<prop id="00126">L</prop>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>0888407890376</barcode>
+							<uid>cf71cc5a-c9eb-11e7-872a-001517fd1875</uid>
+							<prop id="00126">M</prop>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>0888407890369</barcode>
+							<uid>cf71cc58-c9eb-11e7-872a-001517fd1875</uid>
+							<prop id="00126">S</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дпГМ0005861">
+					<name>ИГРОВАЯ ОБУВЬ ДЛЯ ЗАЛА NIKE VAPORX XII PRO IC AH7387-060 SR</name>
+					<uid>c4493864-0044-11e8-9550-001517fd1875</uid>
+					<categoryId>з002358</categoryId>
+					<article>AH7387-060</article>
+					<priceId id="дп0000019">6490</priceId>
+					<priceId id="00004">6490</priceId>
+					<priceId id="з00000001">5192</priceId>
+					<priceId id="MaximumPrice">6490</priceId>
+					<properties>
+						<prop id="N000000281">ИГР. ОБУВЬ Д/З</prop>
+						<prop id="00159">Профессиональные</prop>
+						<prop id="дп0000003">VAPORX XII PRO IC</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="дп0000081">СпецЦена</prop>
+						<prop id="00156">18</prop>
+						<prop id="дп0000083">ГЦ/СД</prop>
+						<prop id="дп0000045">MERCURIAL</prop>
+						<prop id="дп0000047">FA</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="10">
+							<barcode>0191884363180</barcode>
+							<uid>c449387b-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">10</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="10.5">
+							<barcode>0191884363197</barcode>
+							<uid>c449387d-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">10.5</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="11">
+							<barcode>0191884363203</barcode>
+							<uid>c449387f-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">11</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="11.5">
+							<barcode>0191884363210</barcode>
+							<uid>c4493881-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">11.5</prop>
+						</prop_full>
+						<prop_full name="12">
+							<barcode>0191884363227</barcode>
+							<uid>c4493883-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">12</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="12.5">
+							<barcode>0191884363234</barcode>
+							<uid>c4493885-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">12.5</prop>
+						</prop_full>
+						<prop_full name="13">
+							<barcode>0191884363241</barcode>
+							<uid>c4493887-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">13</prop>
+						</prop_full>
+						<prop_full name="6">
+							<barcode>0191884363104</barcode>
+							<uid>c449386a-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">6</prop>
+						</prop_full>
+						<prop_full name="6.5">
+							<barcode>0191884363111</barcode>
+							<uid>c449386d-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">6.5</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="7">
+							<barcode>0191884363128</barcode>
+							<uid>c449386f-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">7</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="7.5">
+							<barcode>0191884363135</barcode>
+							<uid>c4493871-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">7.5</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="8">
+							<barcode>0191884363142</barcode>
+							<uid>c4493873-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">8</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="2" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="8.5">
+							<barcode>0191884363159</barcode>
+							<uid>c4493875-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">8.5</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="9">
+							<barcode>0191884363166</barcode>
+							<uid>c4493877-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">9</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="9.5">
+							<barcode>0191884363173</barcode>
+							<uid>c4493879-0044-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">9.5</prop>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дпГМ0006328">
+					<name>МЯЧ ФУТБОЛЬНЫЙ NIKE PL MAGIA SC3320-100</name>
+					<uid>9699776c-05d7-11e8-9550-001517fd1875</uid>
+					<categoryId>з002395</categoryId>
+					<article>SC3320-100</article>
+					<priceId id="дп0000019">3990</priceId>
+					<priceId id="00004">3990</priceId>
+					<priceId id="MaximumPrice">3990</priceId>
+					<properties>
+						<prop id="N000000283">МЯЧ ФУТ.</prop>
+						<prop id="00159">Профессиональные</prop>
+						<prop id="дп0000003">PL MAGIA</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">18</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000044">FIFA QUALITY PRO</prop>
+						<prop id="дп0000047">FA</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="5">
+							<barcode>0883153307383</barcode>
+							<uid>96997771-05d7-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000040">5</prop>
+							<shop count_free="5" shopId="дп0000080"/>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дпГМ0006583">
+					<name>БУТСЫ NIKE PHANTOM VSN ACADEMY DF FG/MG AO3287-606 JR</name>
+					<uid>237d3a12-05d9-11e8-9550-001517fd1875</uid>
+					<categoryId>з002184</categoryId>
+					<article>AO3287-606</article>
+					<priceId id="дп0000019">4990</priceId>
+					<priceId id="00004">4990</priceId>
+					<priceId id="MaximumPrice">4990</priceId>
+					<properties>
+						<prop id="N000000279">БУТСЫ</prop>
+						<prop id="00159">Любительские</prop>
+						<prop id="дп0000003">PHANTOM VSN ACADEMY DF FG/MG</prop>
+						<prop id="дп0000004">JR</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">18</prop>
+						<prop id="дп0000083">ГЦ/СД</prop>
+						<prop id="дп0000045">PHANTOM VSN</prop>
+						<prop id="дп0000047">FA</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="1.5Y">
+							<barcode>0191884289688</barcode>
+							<uid>237d3a19-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">1.5Y</prop>
+						</prop_full>
+						<prop_full name="1Y">
+							<barcode>0191884289671</barcode>
+							<uid>237d3a17-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">1Y</prop>
+						</prop_full>
+						<prop_full name="2.5Y">
+							<barcode>0191884289701</barcode>
+							<uid>237d3a1d-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">2.5Y</prop>
+						</prop_full>
+						<prop_full name="2Y">
+							<barcode>0191884289695</barcode>
+							<uid>237d3a1b-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">2Y</prop>
+						</prop_full>
+						<prop_full name="3.5Y">
+							<barcode>0191884289725</barcode>
+							<uid>237d3a21-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">3.5Y</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="3Y">
+							<barcode>0191884289718</barcode>
+							<uid>237d3a1f-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">3Y</prop>
+						</prop_full>
+						<prop_full name="4.5Y">
+							<barcode>0191884289749</barcode>
+							<uid>237d3a25-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">4.5Y</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="4Y">
+							<barcode>0191884289732</barcode>
+							<uid>237d3a23-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">4Y</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="5.5Y">
+							<barcode>0191884289763</barcode>
+							<uid>2986163e-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">5.5Y</prop>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="5Y">
+							<barcode>0191884289756</barcode>
+							<uid>2986163c-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">5Y</prop>
+						</prop_full>
+						<prop_full name="6Y">
+							<barcode>0191884289770</barcode>
+							<uid>29861640-05d9-11e8-9550-001517fd1875</uid>
+							<prop id="дп0000029">6Y</prop>
+							<shop count_free="1" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7005626">
+					<name>КРОССОВКИ NIKE MD RUNNER 2 749794-410 SR</name>
+					<uid>049d5a5e-437d-11e6-9df2-001517fd1875</uid>
+					<categoryId>з002378</categoryId>
+					<article>749794-410</article>
+					<priceId id="дп0000019">4990</priceId>
+					<priceId id="00004">4990</priceId>
+					<priceId id="00012">1440</priceId>
+					<priceId id="MaximumPrice">4990</priceId>
+					<properties>
+						<prop id="N000000282">КРОССОВКИ</prop>
+						<prop id="дп0000003">MD RUNNER 2</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">19</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000047">SP</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="10">
+							<barcode>0091201530076</barcode>
+							<uid>049d5a6f-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">10</prop>
+						</prop_full>
+						<prop_full name="10.5">
+							<barcode>0091201530083</barcode>
+							<uid>049d5a71-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">10.5</prop>
+						</prop_full>
+						<prop_full name="11">
+							<barcode>0091201530106</barcode>
+							<uid>049d5a73-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">11</prop>
+						</prop_full>
+						<prop_full name="11.5">
+							<barcode>0091201530113</barcode>
+							<uid>049d5a75-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">11.5</prop>
+						</prop_full>
+						<prop_full name="12">
+							<barcode>0091201530120</barcode>
+							<uid>049d5a77-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">12</prop>
+						</prop_full>
+						<prop_full name="12.5">
+							<barcode>0091201530175</barcode>
+							<uid>049d5a79-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">12.5</prop>
+						</prop_full>
+						<prop_full name="14">
+							<barcode>0091201530199</barcode>
+							<uid>831ea621-13c2-11e7-88a1-001517fd1875</uid>
+							<prop id="дп0000029">14</prop>
+						</prop_full>
+						<prop_full name="6.5">
+							<barcode>0091201529872</barcode>
+							<uid>84907dc4-8672-11e8-80b9-001e670e3080</uid>
+							<prop id="дп0000029">6.5</prop>
+						</prop_full>
+						<prop_full name="7">
+							<barcode>0091201529889</barcode>
+							<uid>049d5a63-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">7</prop>
+						</prop_full>
+						<prop_full name="7.5">
+							<barcode>0091201529896</barcode>
+							<uid>049d5a65-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">7.5</prop>
+						</prop_full>
+						<prop_full name="8">
+							<barcode>0091201529902</barcode>
+							<uid>049d5a67-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">8</prop>
+						</prop_full>
+						<prop_full name="8.5">
+							<barcode>0091201530045</barcode>
+							<uid>049d5a69-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">8.5</prop>
+						</prop_full>
+						<prop_full name="9">
+							<barcode>0091201530052</barcode>
+							<uid>049d5a6b-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">9</prop>
+						</prop_full>
+						<prop_full name="9.5">
+							<barcode>0091201530069</barcode>
+							<uid>049d5a6d-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="дп0000029">9.5</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7005769">
+					<name>ГЕТРЫ NIKE CLASSIC II CUSH OTC SX5728-100</name>
+					<uid>998d5529-437d-11e6-9df2-001517fd1875</uid>
+					<categoryId>ол0000587</categoryId>
+					<article>SX5728-100</article>
+					<priceId id="дп0000019">790</priceId>
+					<priceId id="00004">790</priceId>
+					<priceId id="MaximumPrice">790</priceId>
+					<properties>
+						<prop id="N000000328">ГЕТРЫ</prop>
+						<prop id="дп0000003">CLASSIC II CUSH OTC</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">19</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000045">TEAMSPORT</prop>
+						<prop id="дп0000047">SP</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>0091209517659</barcode>
+							<uid>998d5534-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="00126">L</prop>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>0091209517383</barcode>
+							<uid>998d5532-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="00126">M</prop>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>0091209517376</barcode>
+							<uid>998d5530-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="00126">S</prop>
+						</prop_full>
+						<prop_full name="XL">
+							<barcode>0091209517666</barcode>
+							<uid>6b72e863-2c1b-11e7-b198-001517fd1875</uid>
+							<prop id="00126">XL</prop>
+						</prop_full>
+						<prop_full name="XS">
+							<barcode>0091209517369</barcode>
+							<uid>998d552e-437d-11e6-9df2-001517fd1875</uid>
+							<prop id="00126">XS</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="з012744">
+					<name>КАПА SHOCK DOCTOR PRO 5100A SR</name>
+					<uid>4d5b5be1-fb1a-11e1-a11a-00259072b6ae</uid>
+					<categoryId>о00000060</categoryId>
+					<article>5100A</article>
+					<priceId id="00004">280</priceId>
+					<priceId id="MaximumPrice">280</priceId>
+					<properties>
+						<prop id="N000000437">КАПА</prop>
+						<prop id="дп0000003">PRO</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="00134">SHOCK DOCTOR</prop>
+					</properties>
+					<detail_list>
+						<prop_full>
+							<barcode>0733313014401</barcode>
+							<uid>4d5b5be1-fb1a-11e1-a11a-00259072b6ae</uid>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп0008590">
+					<name>НОСКИ NIKE 3PPK LIGHTWEIGHT NO SHOW SX4705-901</name>
+					<uid>5c61550a-9322-11e3-a36c-001517fd1875</uid>
+					<categoryId>дп0000470</categoryId>
+					<article>SX4705-901</article>
+					<priceId id="дп0000019">790</priceId>
+					<priceId id="00004">790</priceId>
+					<priceId id="00012">480</priceId>
+					<priceId id="MaximumPrice">790</priceId>
+					<properties>
+						<prop id="N000000304">НОСКИ</prop>
+						<prop id="дп0000003">3PPK LIGHTWEIGHT NO SHOW</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">14</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000047">SU</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>0884726577066</barcode>
+							<uid>5c615516-9322-11e3-a36c-001517fd1875</uid>
+							<prop id="00126">L</prop>
+							<shop count_free="6" shopId="дп0000080"/>
+							<shop count_free="4" shopId="дп0000071"/>
+							<shop count_free="3" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>0884726577059</barcode>
+							<uid>5c615513-9322-11e3-a36c-001517fd1875</uid>
+							<prop id="00126">M</prop>
+							<shop count_free="3" shopId="дп0000080"/>
+							<shop count_free="2" shopId="дп0000071"/>
+							<shop count_free="2" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>0884726577042</barcode>
+							<uid>5c615510-9322-11e3-a36c-001517fd1875</uid>
+							<prop id="00126">S</prop>
+							<shop count_free="3" shopId="дп0000080"/>
+							<shop count_free="2" shopId="дп0000071"/>
+							<shop count_free="2" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="XL">
+							<barcode>0884726577073</barcode>
+							<uid>5c615519-9322-11e3-a36c-001517fd1875</uid>
+							<prop id="00126">XL</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7007369">
+					<name>ШОРТЫ ASICS Л/АТЛ. 7IN SHORT SR 129905-0904</name>
+					<uid>1edafca2-c77e-11e6-aa68-001517fd1875</uid>
+					<categoryId>з006379</categoryId>
+					<article>129905-0904</article>
+					<priceId id="00004">1165</priceId>
+					<priceId id="00012">1165</priceId>
+					<priceId id="MaximumPrice">2590</priceId>
+					<properties>
+						<prop id="N000000557">ШОРТЫ [BRAND] Л/АТЛ.</prop>
+						<prop id="дп0000003">7IN SHORT</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="00134">ASICS</prop>
+						<prop id="00156">17</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000047">AW</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>8717999844714</barcode>
+							<uid>1edafca9-c77e-11e6-aa68-001517fd1875</uid>
+							<prop id="дп0000023">L</prop>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>8717999844707</barcode>
+							<uid>1edafcad-c77e-11e6-aa68-001517fd1875</uid>
+							<prop id="дп0000023">M</prop>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>8717999844691</barcode>
+							<uid>1edafcb0-c77e-11e6-aa68-001517fd1875</uid>
+							<prop id="дп0000023">S</prop>
+						</prop_full>
+						<prop_full name="XS">
+							<barcode>8717999844684</barcode>
+							<uid>1edafcb3-c77e-11e6-aa68-001517fd1875</uid>
+							<prop id="дп0000023">XS</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дпГМ0002537">
+					<name>ПЕРЧАТКИ ВРАТАРЯ ADIDAS PRELEW JASCHIN CE4933 SR</name>
+					<uid>0fca68eb-5678-11e7-b016-001517fd1875</uid>
+					<categoryId>з009922</categoryId>
+					<article>CE4933</article>
+					<priceId id="дп0000019">11990</priceId>
+					<priceId id="00004">7990</priceId>
+					<priceId id="00012">7990</priceId>
+					<priceId id="MaximumPrice">11990</priceId>
+					<properties>
+						<prop id="N000000327">ПЕРЧАТКИ ВР.</prop>
+						<prop id="дп0000089">Нет</prop>
+						<prop id="дп0000090">Сухая погода</prop>
+						<prop id="00159">Профессиональные</prop>
+						<prop id="дп0000003">PRELEW JASCHIN</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">ADIDAS</prop>
+						<prop id="00156">18</prop>
+						<prop id="дп0000083">ГЦ/СД</prop>
+						<prop id="дп0000045">PREDATOR</prop>
+						<prop id="дп0000047">SS</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="10">
+							<barcode>4059322882579</barcode>
+							<uid>0fca68f0-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">10</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+						</prop_full>
+						<prop_full name="7">
+							<barcode>4059322882654</barcode>
+							<uid>0fca68f3-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">7</prop>
+						</prop_full>
+						<prop_full name="7.5">
+							<barcode>4059322882616</barcode>
+							<uid>0fca68f6-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">7.5</prop>
+						</prop_full>
+						<prop_full name="8">
+							<barcode>4059322882586</barcode>
+							<uid>0fca68f9-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">8</prop>
+							<shop count_free="2" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="8.5">
+							<barcode>4059322882678</barcode>
+							<uid>0fca68fc-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">8.5</prop>
+							<shop count_free="2" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="9">
+							<barcode>4059322882623</barcode>
+							<uid>0fca68ff-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">9</prop>
+							<shop count_free="2" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="9.5">
+							<barcode>4059322882647</barcode>
+							<uid>0fca6902-5678-11e7-b016-001517fd1875</uid>
+							<prop id="дп0000046">9.5</prop>
+							<shop count_free="2" shopId="дп0000080"/>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп0015615">
+					<name>МАЙКА ИГРОВАЯ NIKE PARK VI JSY SS 725984-702 JR</name>
+					<uid>43dd2c3b-7666-11e5-b27a-001517fd1875</uid>
+					<categoryId>ол0000588</categoryId>
+					<article>725984-702</article>
+					<priceId id="дп0000019">1290</priceId>
+					<priceId id="00004">1290</priceId>
+					<priceId id="MaximumPrice">1290</priceId>
+					<properties>
+						<prop id="N000000346">МАЙКА ИГР.</prop>
+						<prop id="дп0000003">PARK VI JSY SS</prop>
+						<prop id="дп0000004">JR</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">NIKE</prop>
+						<prop id="00156">16</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000045">TEAMSPORT</prop>
+						<prop id="дп0000047">SU</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>0826220326818</barcode>
+							<uid>4abe9c66-7666-11e5-b27a-001517fd1875</uid>
+							<prop id="дп0000023">L</prop>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>0826220326375</barcode>
+							<uid>4abe9c62-7666-11e5-b27a-001517fd1875</uid>
+							<prop id="дп0000023">M</prop>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>0826220326368</barcode>
+							<uid>43dd2c4a-7666-11e5-b27a-001517fd1875</uid>
+							<prop id="дп0000023">S</prop>
+						</prop_full>
+						<prop_full name="XL">
+							<barcode>0826220326825</barcode>
+							<uid>4abe9c6a-7666-11e5-b27a-001517fd1875</uid>
+							<prop id="дп0000023">XL</prop>
+						</prop_full>
+						<prop_full name="XS">
+							<barcode>0826220326351</barcode>
+							<uid>43dd2c46-7666-11e5-b27a-001517fd1875</uid>
+							<prop id="дп0000023">XS</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп0005192">
+					<name>НАКОЛЕННИКИ ВРАТАРЯ UHLSPORT TORWART TECH SR 100696501</name>
+					<uid>685c108f-443f-11e2-b7ad-001517fd1875</uid>
+					<categoryId>з009920</categoryId>
+					<article>100696501</article>
+					<priceId id="дп0000019">2490</priceId>
+					<priceId id="00004">1790</priceId>
+					<priceId id="00012">1790</priceId>
+					<priceId id="MaximumPrice">2490</priceId>
+					<properties>
+						<prop id="N000000321">НАКОЛЕННИКИ ВР.</prop>
+						<prop id="дп0000003">TORWER TECH</prop>
+						<prop id="дп0000004">SR</prop>
+						<prop id="дп0000084">Нет (Не новинка)</prop>
+						<prop id="00134">UHLSPORT</prop>
+						<prop id="00156">12</prop>
+						<prop id="дп0000083">СД</prop>
+						<prop id="дп0000045">Неопределено</prop>
+						<prop id="дп0000047">Неопределено</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="L">
+							<barcode>4051309173472</barcode>
+							<uid>685c1091-443f-11e2-b7ad-001517fd1875</uid>
+							<prop id="дп0000023">L</prop>
+							<shop count_free="4" shopId="дп0000071"/>
+							<shop count_free="2" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="M">
+							<barcode>4051309173489</barcode>
+							<uid>685c1092-443f-11e2-b7ad-001517fd1875</uid>
+							<prop id="дп0000023">M</prop>
+							<shop count_free="4" shopId="дп0000071"/>
+							<shop count_free="3" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="S">
+							<barcode>4051309173496</barcode>
+							<uid>685c1093-443f-11e2-b7ad-001517fd1875</uid>
+							<prop id="дп0000023">S</prop>
+							<shop count_free="2" shopId="дп0000071"/>
+							<shop count_free="3" shopId="дп0000073"/>
+						</prop_full>
+						<prop_full name="XL">
+							<barcode>4051309173502</barcode>
+							<uid>685c1094-443f-11e2-b7ad-001517fd1875</uid>
+							<prop id="дп0000023">XL</prop>
+							<shop count_free="1" shopId="дп0000071"/>
+							<shop count_free="1" shopId="дп0000073"/>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7006102">
+					<name>БАТОНЧИК IRONMAN ISOLATE BAR 50Г</name>
+					<uid>964de429-6f77-11e6-be8b-001517fd1875</uid>
+					<categoryId>c000996</categoryId>
+					<article/>
+					<priceId id="00004">120</priceId>
+					<priceId id="MaximumPrice">120</priceId>
+					<properties>
+						<prop id="N000000699">СПОРТ. ПИТАНИЕ</prop>
+						<prop id="дп0000003">ISOLATE BAR</prop>
+						<prop id="дп0000012">50г</prop>
+						<prop id="00134">IRONMAN</prop>
+						<prop id="00156">16</prop>
+						<prop id="дп0000039">БАТОНЧИК</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="Клубника">
+							<barcode>4607062756140</barcode>
+							<uid>964de42e-6f77-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Клубника</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7006103">
+					<name>БАТОНЧИК IRONMAN PROTEIN BAR 50Г</name>
+					<uid>964de431-6f77-11e6-be8b-001517fd1875</uid>
+					<categoryId>c000996</categoryId>
+					<article/>
+					<priceId id="00004">65</priceId>
+					<priceId id="MaximumPrice">65</priceId>
+					<properties>
+						<prop id="N000000699">СПОРТ. ПИТАНИЕ</prop>
+						<prop id="дп0000003">PROTEIN BAR</prop>
+						<prop id="дп0000012">50г</prop>
+						<prop id="00134">IRONMAN</prop>
+						<prop id="00156">16</prop>
+						<prop id="дп0000039">БАТОНЧИК</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="Банан">
+							<barcode>4607062756249</barcode>
+							<uid>964de436-6f77-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Банан</prop>
+						</prop_full>
+						<prop_full name="Карамель">
+							<barcode>4607062756232</barcode>
+							<uid>964de439-6f77-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Карамель</prop>
+						</prop_full>
+						<prop_full name="Кокос">
+							<barcode>4607062750650</barcode>
+							<uid>964de43c-6f77-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Кокос</prop>
+						</prop_full>
+						<prop_full name="Орех">
+							<barcode>4607062750667</barcode>
+							<uid>964de43f-6f77-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Орех</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+				<offer id="дп7006112">
+					<name>НАПИТОК XXI L-CARNITINE 500ML</name>
+					<uid>addb12c3-6f7d-11e6-be8b-001517fd1875</uid>
+					<categoryId>c000996</categoryId>
+					<article/>
+					<priceId id="00004">65</priceId>
+					<priceId id="MaximumPrice">65</priceId>
+					<properties>
+						<prop id="N000000699">СПОРТ. ПИТАНИЕ</prop>
+						<prop id="дп0000003">L-CARNITINE</prop>
+						<prop id="дп0000012">500ML</prop>
+						<prop id="00134">XXI</prop>
+						<prop id="00156">16</prop>
+						<prop id="дп0000039">НАПИТОК</prop>
+					</properties>
+					<detail_list>
+						<prop_full name="Ананас">
+							<barcode>4607062759127</barcode>
+							<uid>addb12c8-6f7d-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Ананас</prop>
+						</prop_full>
+						<prop_full name="Апельсин">
+							<barcode>4607062759134</barcode>
+							<uid>17747755-31c2-11e8-a433-001517fd1875</uid>
+							<prop id="00157">Апельсин</prop>
+						</prop_full>
+						<prop_full name="Грейпфрут">
+							<barcode>4607062757635</barcode>
+							<uid>addb12cb-6f7d-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Грейпфрут</prop>
+						</prop_full>
+						<prop_full name="Грейпфрут с малиной">
+							<barcode>4650069825210</barcode>
+							<uid>b6b9e6bf-a47c-11e8-80b9-001e670e3080</uid>
+							<prop id="00157">Грейпфрут с малиной</prop>
+						</prop_full>
+						<prop_full name="Зеленый чай">
+							<barcode>4650069820178</barcode>
+							<uid>addb12ce-6f7d-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Зеленый чай</prop>
+						</prop_full>
+						<prop_full name="Земляника">
+							<barcode>4650069820420</barcode>
+							<uid>addb12d1-6f7d-11e6-be8b-001517fd1875</uid>
+							<prop id="00157">Земляника</prop>
+						</prop_full>
+						<prop_full name="Кола">
+							<barcode>4607062757628</barcode>
+							<uid>be17cb5b-a47c-11e8-80b9-001e670e3080</uid>
+							<prop id="00157">Кола</prop>
+						</prop_full>
+						<prop_full name="Лайм-мята">
+							<barcode>4607062757963</barcode>
+							<uid>cff4173c-31b4-11e8-a433-001517fd1875</uid>
+							<prop id="00157">Лайм-мята</prop>
+						</prop_full>
+					</detail_list>
+				</offer>
+			</offers>
+		</shop>
+	</v8msg:Body>
+</v8msg:Message>

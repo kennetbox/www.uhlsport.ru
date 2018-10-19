@@ -1,0 +1,19 @@
+.nav {
+	background-color: #2f2f2f;
+	background-image: url(../images/ie/navigation-background-gradient.png);
+	background-repeat: repeat-x;
+	background-position: 0 1px;
+}
+
+.feature-slider-nav {
+	background-image: url(../images/ie/feature-slider-navigation-background-solid.png);
+}
+
+.nav a:focus {
+	outline: none;
+}
+
+.new {
+	height: 0;
+	padding-top: 34px;
+}

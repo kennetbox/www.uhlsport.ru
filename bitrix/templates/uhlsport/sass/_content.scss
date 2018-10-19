@@ -1,0 +1,287 @@
+#content {
+padding: 30px;
+padding-top: 120px;
+	h2 {
+		font-size: 15px;
+		font-weight: normal;
+		font-family:$font2;
+	}
+	.downloads {
+		h5 {
+			margin: 0;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			font-weight: normal;
+		}
+		div {
+			margin-bottom: 30px;
+				img {
+					&.thumbnail {						
+						@include box-shadow(2px 2px 10px gray);
+					}
+				}
+				a {
+					&.download {
+						img {
+							margin-right: 20px;
+						}
+					}
+				}
+		}
+	}
+	blockquote {
+		margin: 0;
+		padding-left: 30px;
+		padding-bottom: 10px;
+		padding-right: 30px;
+		background-image: url(images/quote.png);
+		background-repeat: no-repeat;
+		font-style: italic;
+	}
+	.headlineimg {
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+	.headline {
+		clear: both;
+		margin-left: -30px;
+		margin-right: -30px;
+		z-index: 5;
+		background-image: url(Images/teiler.jpg);
+		background-repeat: no-repeat;
+		background-position: 0 11px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+			.headlineimg {
+				margin-top: -57px;
+				margin-left: 40px;
+				position: relative;
+				z-index: 20
+			}
+			h2 {
+				font-family:$font2;
+				background-color: #fff;
+				z-index: 5;
+				margin-left: 40px;
+				font-size: 15px;
+				font-weight: normal;
+				border-top: 2px solid #e2001a;
+				border-left: 2px solid #e2001a;
+				border-right: 2px solid #e2001a;
+				padding: 5px;
+				padding-left: 20px;
+				padding-right: 20px;
+				top: -17px;
+				position: relative;
+				display: inline;
+				line-height: 18px;
+			}
+	}
+	hr {
+		margin-left: -30px;
+		margin-right: -30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 40px;
+		border: 0;
+		border-bottom: 1px solid #dfdfdf;
+		clear: both;
+		overflow: visible;
+	}
+	.stamp {
+	position: relative;
+	z-index: 10;
+	display: block;
+	text-align: center;
+	top: -140px;
+	margin-bottom: -80px;
+		a {
+			background-image: url(images/merchandising-pfeil.png);
+			background-repeat: no-repeat;
+			padding-left: 20px;
+			text-transform: uppercase;
+			-webkit-text-shadow: 3px 3px 5px black;
+			text-shadow: 3px 3px 5px black;
+			text-decoration: none;
+			font-size: 34px;
+			font-family: $font3;
+			color: #fff;
+				&:hover {
+					text-decoration: underline;
+				}
+		}
+	}
+}
+
+.clear {
+	clear: both;
+}
+.hide {
+	display: none;
+}
+.small {
+	font-size: 10px; 
+	text-align: right; 
+	clear: both; 
+	margin-right: 20px;
+}
+#fullimage {
+	height: 710px;
+	width: 1020px;
+	z-index: 10;
+	position: relative;
+	margin-left: -30px;
+	margin-top: -60px;
+	margin-bottom: -40px;
+	background-image: url(images/intro-tw_fr.jpg);
+		img {
+			position: absolute;
+			z-index: 10;
+				&#mobile {
+					display: none;
+				}
+		}
+		video {
+			width: 100%;
+		}
+		#bg_team {
+			height: 710px;
+			width: 1020px;
+			position: absolute;
+			background-image: url(images/intro-team.jpg);
+			display: none;
+		}
+		#claim {
+			left: 43px;
+			top: 40px;
+			z-index: 50;
+		}
+		#selection {
+			left: 43px;
+			top: 130px;
+			z-index: 50;
+			position: absolute;
+		}
+}
+
+#timeline {
+	width: 1020px;
+	height: 650px;
+	overflow: hidden;
+	margin: 50px auto;
+	margin-left: -40px;
+	margin-bottom: -50px;
+	position: relative;
+}
+
+#dates {
+	width: 940px;
+	height: 60px;
+	overflow: hidden;
+	li {
+		list-style: none;
+		float: left;
+		width: 120px;
+		height: 50px;
+		font-size: 40px;
+		font-family: $font3;
+		text-align: center;
+		-webkit-text-shadow: black 1px 1px 5px;
+		text-shadow: black 1px 1px 5px;
+		font-weight: normal;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		line-height: 38px;
+		padding-bottom: 10px;
+	}
+	.selected {
+		font-size: 40px;
+		text-decoration: underline;
+	}
+}
+
+#issues {
+	width: 940px;
+	height: 600px;
+	overflow: hidden;
+		.text {
+			background-color: #fff;
+			padding: 10px;
+			@include box-shadow(#575757 0 0 6px);
+			margin-right: 20px;
+			width: 300px;
+		}
+		li {
+			margin-top: 50px;
+			width: 900px;
+			height: 400px;
+			list-style: none;
+			float: left;
+				img {
+					float: left;
+					margin: 10px 30px 10px 50px;
+					background: transparent;
+				}
+				h2 {
+					font-weight: normal;
+					color: #000;
+					font-size: 50px;
+					font-family: $font3;
+					margin: 0 0;
+				}
+		}
+}
+
+ul.stories {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+		li {
+			width: 340px;
+			padding-left: 20px;
+			padding-right: 20px;
+			height: 300px;
+			float: left;
+			margin-right: 100px;
+		}
+		.sub {
+			width: 340px;
+			height: 140px;
+			margin-bottom: 20px;
+				a {
+					float: left;
+						&:nth-child(1) {
+							img {
+								margin-right: 20px;
+							}
+						}
+				}
+				&:after {
+					content:"";
+					display: block;
+					clear: both;
+				}
+		}
+}
+div.animation_goalkeeper {
+	.headline {
+		h2 {
+			background-image: url(images/head-to-toe-text_bg.jpg);
+		}
+	}
+}
+div.history {
+	background-image: url(images/bg-geschichte.jpg);
+	background-repeat: no-repeat;
+	background-position: left 294px;
+		.headline {
+			h2 {
+				background-image: url(images/geschichte-text_bg.jpg);
+			}
+		}
+}
+
+

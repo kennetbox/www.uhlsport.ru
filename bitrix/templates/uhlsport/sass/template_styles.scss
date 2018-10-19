@@ -1,0 +1,40 @@
+@import "fonts";
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "common";
+@import "content";
+@import "navicons";
+
+
+/*html,body {height:100%;width:100%; margin:0; padding:0;}*/
+body {
+	color: $color_text;
+	font: normal 14px $font1;
+	background:#fff;
+		&.body {
+			background-image: url(images/bg.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+}
+#wrapper {
+	@include pie;
+	background-color: #fff;
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	@include box-shadow(#7a7a7a 0 0 6px);
+}
+@import "header";
+
+@import "menu";
+@import "slider";
+@import "fancy";
+
+@import "footer";
